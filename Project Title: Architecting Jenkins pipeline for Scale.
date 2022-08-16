@@ -1,0 +1,20 @@
+Project Title: Architecting Jenkins pipeline for Scale.
+
+
+*Git: As a version control system for the software
+*Jenkins: To create the build pipeline
+*Spring boot: To create the Maven app
+*Maven: To compile the program
+*AWS EC2: To run the master and slave nodes
+ 
+
+*The app should be built with Maven.
+*There should be three EC2 instances to run the master and two slave nodes.
+*All builds should be triggered and monitored by the master node.
+*Compilation and testing should be done on dedicated slave nodes.
+
+*Before You goto jenkins make sure that java jdk is install in your device that is main thing fo all this.
+download java jdk 11 version /12 version then only jenkin run in your machine.
+* First Goto jenkins and create 2 nodes master and slave nodes then clone the git repository here then for create maven app use spring boot .
+*for to run and compile the program download and install apachemaven to our local device.
+*then go to AWS for create instance in EC2 for jenkin master and jenkin slave run and attch in jenkin also 
